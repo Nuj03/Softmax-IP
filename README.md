@@ -10,6 +10,8 @@ Designed to be tested with pynq
 
 Currently uses floating point operations
 
+While running synthesis estimated fmax 91.33 MHz 
+
 # To do
 
 Modify to support variable vector size
