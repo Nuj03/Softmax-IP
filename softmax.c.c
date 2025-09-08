@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <string.h>
-#include <ctype.h>
+
 
 void Softmax(float mem_block2_dense[1000], float bd3[1000], int class[1000], float result[1000]){
 #pragma HLS INTERFACE s_axilite port=mem_block2_dense bundle=INPUT
